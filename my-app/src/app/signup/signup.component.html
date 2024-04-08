@@ -1,1 +1,7 @@
-<p>signup works!</p>
+<div class="signup-container">
+    <form (ngSubmit)="onSignupSubmit()" #signupForm="ngForm">
+      <!-- Similar structure to login, but include additional fields like email, confirm password, etc. -->
+      <button type="submit" [disabled]="!signupForm.valid">Sign Up</button>
+    </form>
+  </div>
+  

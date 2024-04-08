@@ -1,0 +1,32 @@
+.login-container {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .alert {
+    color: red;
+    font-size: 0.8em;
+  }
+  
